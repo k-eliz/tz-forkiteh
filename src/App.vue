@@ -1,6 +1,6 @@
 <template>
   <MainHeader></MainHeader>
-  <RouterView></RouterView>
+  <RouterView class="page"></RouterView>
 </template>
 
 <script setup>
@@ -94,5 +94,9 @@ body {
 .container {
   max-width: 1116px;
   margin: 0 auto;
+}
+
+.page{
+  padding: 20px;
 }
 </style>
